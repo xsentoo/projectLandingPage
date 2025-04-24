@@ -14,7 +14,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md' }) => {
   return (
     <div className={`font-display font-bold flex items-center gap-2 animate-float`}>
       <img 
-        src="/JustLogo.svg" 
+        src="./JustLogo.png" 
         alt="FitnessAnime Logo" 
         className={`${sizeClasses[size]} animate-glow`}
       />
